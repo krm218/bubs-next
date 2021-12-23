@@ -1,0 +1,38 @@
+.bar {
+  z-index: 1000;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  a {
+    color: #fff;
+  }
+}
+
+.top {
+  position: sticky;
+  top: 0;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+
+  @media (min-width: 576px) {
+    bottom: 20px;
+    left: 20px;
+    display: inline-block;
+    width: auto;
+    border-radius: 5px;
+  }
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
